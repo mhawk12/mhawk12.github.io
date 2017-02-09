@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<link rel="stylesheet" href="style.css" >
+
+<meta charset="UTF-8">
+<title>Nishant's Details</title>
+</head>
+
+<body>
+  <form>
+    <nav class = "navigation">
+      <p><strong>Contact Me</strong></p>
+    </nav>
+
+    <table class="contact_table">
+      <tbody >
+        <tr>
+           <td><strong>First Name:</strong></td>
+            <td><input type="text" name="txtFirstName" size="50"  maxlength="25" required ></td>  <!--validator used here -->
+        </tr>
+
+
+
+        <tr>
+           <td><strong>Last Name:</strong></td>
+            <td><input type="text" name="txtSecondName" size="50" maxlength="25" required ></td>  <!--validator used here -->
+        </tr>
+
+
+
+        <tr>
+           <td><strong>Age:</strong></td>
+            <td><input type="number" name="numPhoneNumber"  max="18"  min ="50" required></td>  <!--validator used here -->
+        </tr>
+
+
+
+        <tr>
+            <td><strong>Email :</strong></td>
+            <td><input type="email" name="txtEmail" size="50" required maxlength="25"  autocomplete="on"></td><!--validator used here -->
+      </tr>
+
+
+
+      <tr>
+          <td><strong>Gender:</strong></td>
+          <td><input type="radio" name="radMSex" value="male" >Male</td><!--validator used here -->
+      </tr>
+
+
+
+
+
+
+      <tr>
+          <td></td>
+          <td><input type="radio" name="radFsex" value="female" >Feamle</td>   <!--validator used here -->
+      </tr>
+
+      <tr>
+       <td>&nbsp;</td>
+       <td>&nbsp;</td>
+      </tr>
+
+      <tr>
+        <td><strong>Would you like to added to my contact list?</strong></td>
+        <td><input type="checkbox" name="chkMailingList" ></td>
+      </tr>
+
+
+      <tr>
+       <td>&nbsp;</td>
+       <td>&nbsp;</td>
+      </tr>
+
+
+      <tr>
+        <td><input type="reset" value="Reset" /></td>
+        <td><input type="submit" value= "Submit" /></td>
+      </tr>
+      </tbody>
+    </table>
+
+
+
+  </form>
+</body>
+
+</html>

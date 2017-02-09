@@ -1,0 +1,132 @@
+body
+{
+background: #C3DDF8;
+}
+
+/* first class based style selector */
+.footer_bar
+{
+  text-align: right;
+}
+
+/* second class based style selector */
+.navigation
+{
+  text-align: center;
+  margin: 0 auto;
+  width: 900px;
+  height: 40px;
+  background: #eeeeee;
+  border: double;
+}
+
+/* first id based style selector */
+#interests
+ {
+  text-align: center
+ }
+
+
+/* second id based style selector */
+  #education
+   {
+    text-align: center
+   }
+
+
+/* third id  based style selector */
+  #skills
+   {
+    text-align: center
+   }
+
+
+/* fourth id based style selector */
+  #course
+   {
+    text-align: center
+    }
+
+
+
+/* first class + ID combination based selectors */
+#ulfirst.item1
+{
+  font-weight: bold;
+}
+/* second class + ID combination based selectors */
+#ulsecond.item2
+{
+  font-weight: bold;
+}
+/* third class + ID combination based selectors */
+#ulthird.item3
+{
+  font-weight: bold;
+}
+
+
+
+/* first descendant based selector */
+tbody th
+{
+  font-style: italic;
+}
+
+/* first descendant based selector */
+footer p
+{
+  font-weight:  bold;
+}
+
+
+
+article, form
+{
+  background: #ffffff;
+  width: 1000px;
+  border: double;
+  margin: 10px auto;
+}
+
+
+
+
+img{
+  display: block;
+  width: 600px;
+  margin: 0 auto;
+
+}
+
+
+ul, ol{
+  display: block;
+  width: 850px;
+  margin: 0 auto;
+
+}
+
+table{
+  margin: 0 auto;
+}
+
+button{
+  display: block;
+  height: 35px;
+  width: 150px;
+  margin: 10px auto;
+  font-size: 20px;
+}
+
+
+
+section
+{
+  border-bottom: double;
+}
+
+.contact_table
+{
+  margin: 10px auto;
+}
